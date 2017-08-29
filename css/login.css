@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
+input{text-indent: 1em;}
+.login{width: 1904px;height: 761px;margin:0 auto;position: relative;}
+.login_bg{width:380px;height: 450px; background-color:rgba(254,250,248,0.4);border-radius:15px;position:absolute;left:760px;top:135px;}
+.user{width:330px;height:60px;display:block;float:left;margin-left: 25px;text-align:center;line-height: 60px;font-size: 16px;color:#333;border-bottom:2px solid #666;}
+.emali_div{width: 330px;height:70px;margin-left: 25px;float:left;margin-top:30px;}
+.emali_input{width: 325px;height: 40px;color:#ccc;border:1px solid #999;}
+.emali_div span{font-size:14px;color:red;}
+.password{margin-top: 0;}
+#login_input{width: 330px;height: 36px;font-weight:400;margin-left: 25px;background:#29b564;outline:none;border:none;text-align:center;color:#fff;font-size:16px;cursor:pointer;}
+#login_input:hover{background: #08fa3b;color: #333;}
+.p_c{margin-left: 25px;margin-top: 10px;color:#333;font-size:14px;}
+.login_pic{width: 330px;height: 80px;margin-left: 25px;position: relative;}
+.pic{width: 330px;height: 40px;position: absolute;top:20px;}
+.pic ul li{width:40px;height: 40px;margin-left: 35px;background:red;float:left;line-height:40px;cursor:pointer;}
+.pic ul li.pic_li1{margin-left: 30px;background:url(../img/login_img/login.png);background-position:0px 0px;}
+.pic ul li.pic_li2{background:url(../img/login_img/login.png);background-position:42px 0px;}
+.pic ul li.pic_li3{background:url(../img/login_img/login.png);background-position:82px 0px;}
+.pic ul li.pic_li4{background:url(../img/login_img/login.png);background-position:120px 0px;}
+.pic ul li.pic_li1:hover{background:url(../img/login_img/login.png);background-position:0px 40px;}
+.pic ul li.pic_li2:hover{background:url(../img/login_img/login.png);background-position:42px 40px;}
+.pic ul li.pic_li3:hover{background:url(../img/login_img/login.png);background-position:82px 40px;}
+.pic ul li.pic_li4:hover{background:url(../img/login_img/login.png);background-position:120px 40px;}
+.p_bo{width: 330px;height: 40px;margin-left: 25px;margin-top: 10px;font-size: 12px;}
+.p_bo a{color:#333;}
+.p_bo span{display:block;margin-left: 250px;margin-top: -20px;}
+.p_bo a:hover{color:#3bfa08;}

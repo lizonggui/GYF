@@ -1,0 +1,21 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
+input{text-indent: 1em;}
+.enroll{width: 1904px;height: 761px;position: relative;}
+.enroll_bg{width:380px;height: 450px; background-color:rgba(254,250,248,0.4);border-radius:15px;position:absolute;left:760px;top:135px;}
+.emali{width:330px;height:60px;display:block;float:left;margin-left: 25px;text-align:center;line-height: 60px;font-size: 16px;color:#333;border-bottom:2px solid #666;}
+.emali_div{width: 330px;height:70px;margin-left: 25px;float:left;margin-top:20px;}
+.emali_input{width: 325px;height: 38px;color:#999;border:1px solid #999;}
+.emali_div span{font-size:14px;color:red;}
+.pic_div{width: 330px;height:70px;margin-left: 25px;float:left;}
+.pic_input{width:325px;height: 38px;color:#999;}
+.pic_div span{font-size:14px;color:red;}
+.yzm{width: 125px;height: 41px;float:right;background:#3f9f5f;cursor:pointer;text-align:center;}
+.yzm span{color:#fff;font-size:14px;line-height:41px;}
+.username{margin-top: 0;}
+.password{margin-top: 0;}
+#enroll_input{width: 330px;height: 36px;font-weight:400;margin-left: 25px;background:#29b564;outline:none;border:none;text-align:center;color:#fff;font-size:16px;cursor:pointer;}
+#enroll_input:hover{background: #08fa3b;color: #333;}
+.p_bott{margin-left: 25px;margin-top: 10px;}
+.p_bott span{color:#333;font-size:12px;}
+.p_bott a{color:red;font-size:12px;}
+.P_right{margin-left: 50px;}

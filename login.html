@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>sign_in</title>
+        <link rel="stylesheet" href="css/login.css" />
+        <script type="text/javascript" src="js/login.js"></script>
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body style="background: url(img/login_img/login_bg.png) no-repeat;background-size: 100%;">
+       <div class="login">
+                <!-- 注册框 -->
+                <div class="login_bg">
+                    <a class="user" href="javascript:;">账号登录</a>
+                   
+                    <form action="login.php" method="post">
+                        <div class="emali_div username">
+                        <input type="text" placeholder="请输入您的账号" class="emali_input" id="username" name="phone" />
+                        <span id="enroll_span1"></span>
+                    </div>
+                    
+                    <div class="emali_div password">
+                        <input type="password" placeholder="请输入您的密码" class="emali_input" id="password"  name="password" />
+                        <span id="enroll_span2"></span>
+                    </div>
+                    <input type="submit" id="login_input" name="submit" value="登录" />
+                    <p class="p_c"><input type="checkbox" />记住我</p>
+                    </form>
+                    <div class="login_pic">
+                        <div class="pic">
+                            <ul>
+                                <li class="pic_li1"></li>
+                                <li class="pic_li2"></li>
+                                <li class="pic_li3"></li>
+                                <li class="pic_li4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                   <p class="p_bo"><a href="login.html">用户名登录 | 境外手机号登录</a><span><a href="enroll.html">立即注册>></a></span></p>
+                </div>
+       </div>
+    </body>
+</html>

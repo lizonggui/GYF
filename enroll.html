@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>sign_up</title>
+        <link rel="stylesheet" href="css/enroll.css" />
+        <script type="text/javascript" src="js/enroll.js"></script>
+        
+    </head>
+    <body style="background: url(img/login_img/login_bg.png) no-repeat;background-size: 100%;">
+            <div class="enroll">
+                <!-- 注册框 -->
+                <div class="enroll_bg">
+                    <a class="emali" href="javascript:;">账号注册</a>
+                    <form action="enroll.php" method="post">
+                    <div class="emali_div">
+                        <input type="text" placeholder="请输入您的手机号码" name="phone" id="phone_input" value="" class="emali_input"  />
+                        <span id="enroll_span1"></span>
+                    </div>
+                    <div class="pic_div">
+                        <input type="text" placeholder="请输入您的用户名" class="pic_input" id="name_input" name="username" />                      
+                        <span id="enroll_span2"></span>
+                    </div>                                    
+                    <div class="emali_div username">
+                        <input type="password" placeholder="请输入您的密码（6到16位）" value="" class="emali_input" id="password" name="password" />
+                        <span id="enroll_span3"></span>
+                    </div>
+                    
+                    <div class="emali_div password">
+                        <input type="password" placeholder="请再次输入您的密码" value="" class="emali_input" id="password1"  name="password1" />
+                        <span id="enroll_span4"></span>
+                    </div>
+                    <input type="submit" id="enroll_input" value="注册"  name="submit"/>
+                    <p class="p_bott"><span>已有桂医坊账号?</span><a href="login.html">登录>></a>
+                        <span class="P_right">同意<a href="javascript:;">会员条款</a>和<a href="javascript:;">免费声明</a></span>
+                    </p>                   
+                    </form>
+                </div>
+            </div>
+    </body>
+</html>
